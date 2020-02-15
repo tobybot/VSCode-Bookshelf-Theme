@@ -7,3 +7,4 @@ A warm, soothing theme reminiscent of old library shelves and leather bound book
 
 I hope to add more variants. Currently, the theme contains a single Light variant.
 
+![Screenshot of Bookshelf Theme](https://raw.githubusercontent.com/tobybot/VSCode-Bookshelf-Theme/master/Screenshot.png)
