@@ -1,0 +1,9 @@
+.someClass {
+  font-family: sans;
+  transition: all 1s linear;
+}
+
+#someID {
+  color: #aabbcc;
+  background: url('/blab/ding/hi.jpg') no-repeat;
+}

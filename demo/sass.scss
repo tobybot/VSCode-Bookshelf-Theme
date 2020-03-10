@@ -1,0 +1,28 @@
+/* comment */
+
+@import "functions";
+
+@mixin float-left {
+    float: left !important;
+    @include deprecate("The `float-left` mixin", "v4.3.0", "v5");
+}
+
+$gray-100: rgba(90,90,90,1.0);
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI" !important;
+
+.thing {
+    transition: opacity .5s ease-in-out;
+    &.subthing {
+        filter: blur(4px);
+    }
+    @include media-breakpoint-down(sm) {
+        min-width: 100%;
+    }
+
+    &:nth-child(8n+1) { width: 100%; }
+
+    &>div::before {
+        border: 3px solid $darkred;
+    }
+}
