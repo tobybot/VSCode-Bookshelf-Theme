@@ -7,7 +7,7 @@
     "homepage": "",
     "repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/tobybot/VSCode-Bookshelf-Theme"
 	},
     "engines": {
         "vscode": "^1.42.0"
